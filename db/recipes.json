@@ -1,0 +1,24 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"BBQ Chicken",
+  "ingredients" : ["chicken", "water", "bbq"],
+  "direction" : ["cook", "bake", "eat"],
+  "photo" : "http://static.squarespace.com/static/5181d5b7e4b07b8c66ed5614/t/528eeee2e4b0fc15797f8ebf/1385098979427/chicken.jpg"
+}
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Bacon Sandwich",
+  "ingredients" : ["bacon", "bread", "more bacon"],
+  "direction" : ["Get two slices of bread", "Get 10 slices of bacon", "Put it on the bread", "Profit"],
+  "photo" : "http://bacontoday.com/wp-content/uploads/2011/10/Sammich-near-orange.jpg"
+
+}
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"Taco Night",
+  "ingredients" : ["taco shells", "beef", "beef seasoning", "sour cream", "tomatoes", "shredded cheddar"],
+  "direction" : ["Cook beef until done, then as beef seasoning", "inserst beef into taco shells", "add sour cream, tomatoes and cheddar", "Enjoy!"],
+  "photo" : "http://www.tacospin.com/assets/img/taco.jpg"
+
+}
+

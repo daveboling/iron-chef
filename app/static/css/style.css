@@ -10,3 +10,16 @@ body{
   background-size: cover;
 }
 
+nav {
+  width: 70%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}

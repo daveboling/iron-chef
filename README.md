@@ -1,6 +1,6 @@
 ## name of project
 ### Code Badges
-build status icon
+[![Build Status](https://travis-ci.org/kadowki/iron-chef.svg)](https://travis-ci.org/kadowki/iron-chef)
 coverage status icon
 
 ### About
