@@ -1,19 +1,19 @@
 /* global describe, it, before, beforeEach */
 'use strict';
 
-var expect = require('chai').expect;
-var Recipe = require('../../app/models/recipe');
-var db = 'iron-test';
-var dbConnect = require('../../app/lib/mongodb');
-var cp = require('child_process');
+var expect = require('chai').expect,
+    db = 'iron-test',
+    dbConnect = require('../../app/lib/mongodb'),
+    cp = require('child_process'),
+    Recipe = require('../../app/models/recipe');
 
 
 
 describe('Recipe', function(){
   before(function(done){
-   dbConnect(db, function(){
-     done();
-   });
+    dbConnect(db, function(){
+      done();
+    });
   });
 
   beforeEach(function(done){

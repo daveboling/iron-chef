@@ -9,15 +9,15 @@ function Recipe(o){
 
 Object.defineProperty(Recipe, 'collection', {
   get: function(){
-   return global.mongodb.collection('recipes');
+    return global.mongodb.collection('recipes');
   }
 });
 
 
 Recipe.findAll = function(cb){
- Recipe.collection.find().toArray(function(err, recipes){
+  Recipe.collection.find().toArray(function(err, recipes){
     cb(recipes);
- });
+  });
 };
 
 
