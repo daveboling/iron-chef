@@ -1,7 +1,8 @@
 ## name of project
 ### Code Badges
 [![Build Status](https://travis-ci.org/kadowki/iron-chef.svg)](https://travis-ci.org/kadowki/iron-chef)
-coverage status icon
+[![Coverage Status](https://coveralls.io/repos/kadowki/iron-chef/badge.png)](https://coveralls.io/r/kadowki/iron-chef)
+
 
 ### About
 write a description about your project
