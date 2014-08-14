@@ -1,0 +1,11 @@
+.recipe(data-recipe-id=recipe._id.toString())
+    .img(style="background-image:url(#{recipe.photo});")
+    h5= recipe.name
+    .category: h5= recipe.category
+    .name: h5 Ingredients
+    button.delete.x X
+    ul
+      -for(var i = 0; i < recipe.ingredients.length; i++)
+        li: a.ingredient(href="#")= recipe.ingredients[i]
+    .name: h5 Directions
+    .directions=  recipe.direction

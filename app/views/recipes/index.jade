@@ -1,0 +1,30 @@
+extends ../shared/template
+block content
+    h2 Recipe Page
+      
+    #controls
+      #visibility
+        button.red#hide Hide Form
+        button.red#show Show Form
+      form(method='post' action='/recipes')
+        label Name
+        input(type='text' name='name')
+        select(name="category")
+          option(value='dinner') Dinner
+          option(value='breakfast') Breakfast
+          option(value='lunch') Lunch
+        label Photo URL
+        input(type='text' name='photo')
+        label Ingredients
+        input(type='text' name='ingredients')
+        label Directions
+        textarea(name='directions' , placeholder="chicken, water, eggs")
+        button.grey Add Recipe
+    ul
+      li: a.filter(href="#") breakfast
+      li: a.filter(href="#") lunch
+      li: a.filter(href="#") dinner
+
+    .wrapper
+      each recipe in recipes
+         include recipe
